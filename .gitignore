@@ -1,0 +1,14 @@
+# Ignore build artifacts
+dist/
+build/
+__pycache__/
+*.spec
+
+# Ignore virtual environments (if any)
+venv/
+.env
+
+# Ignore large datasets (optional, if you want to keep data local)
+train/
+valid/
+test/

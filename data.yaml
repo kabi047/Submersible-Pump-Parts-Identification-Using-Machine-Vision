@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['NRV_cone', 'NRV_cone_stem', 'NRV_ring', 'brass_washer', 'casing_bush', 'coupling', 'discharge_outlet', 'distance_sleeve', 'dol_sleeve', 'impeller', 'lock_washer', 'non_return_valve', 'sand_thrower', 'stage_casing', 'suction_housing']
+
+roboflow:
+  workspace: gantryrobot
+  project: pump_parts
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/gantryrobot/pump_parts/dataset/1
